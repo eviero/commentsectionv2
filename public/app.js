@@ -45,6 +45,10 @@ $(function(){
     setInterval(function(){ 
   randomNum = Math.floor(Math.random() * data.items.length)
 }, 5000)
+    
+    setInterval(function(){ 
+  data = Math.floor(Math.random() * data.items.length)
+}, 5000)
 
   // $('.imageBox').append('<img src=' + data.items[randomNum].snippet.topLevelComment.snippet.authorProfileImageUrl + '>')
     
@@ -72,7 +76,7 @@ $(function(){
 
       console.log(data.items[randomNum].snippet.topLevelComment.snippet.authorDisplayName)
 
-      console.log(data)
+      console.log('data: ' + data)
     
 //     var aComment = '<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>'
 
