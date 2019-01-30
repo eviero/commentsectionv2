@@ -73,6 +73,8 @@ $(function(){
 //     var aComment = '<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>'
 
       $('body').css({
+        'text-align':'left',
+        'padding-left':'10',
         'font-family':'Courier',
         'font-size': '25',
         'background-color':'black'
