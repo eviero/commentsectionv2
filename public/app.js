@@ -18,9 +18,11 @@ var someElement = document.querySelector('.testing');
 var observer = new MutationObserver(scrollToBottom);
 // Tell it to look for new children that will change the height.
 var config = {childList: true};
-observer.observe(someElement, config);
+var scrollToBottom
 
 $(function(){
+  
+  observer.observe(someElement, config);
 
   // randomNum = Math.floor(Math.random() * 99)
   fontColors = ['red','orange','yellow','green','blue','indigo','violet','pink']
