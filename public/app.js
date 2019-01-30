@@ -90,7 +90,7 @@ $(function(){
         setInterval(function(){ 
     theColor = fontColors[Math.floor(Math.random() * fontColors.length)]
       })
-}, 5000);
+}, 5000)
     
     console.log(theColor)
 
@@ -98,4 +98,4 @@ $(function(){
 
 
 
-    }) })
+})
