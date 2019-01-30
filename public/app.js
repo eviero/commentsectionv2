@@ -75,7 +75,7 @@ $(function(){
     },5000)
 
       $('body').css({
-        'color':fontColors[Math.floor(Math.random() * fontColors.length)],
+        'color':theColor,
         'font-family':'Courier',
         'font-size': '25',
         'background-color':'black'
@@ -87,7 +87,7 @@ $(function(){
 //       })
 // }, 5000);
     
-//     console.log(theColor)
+    console.log(theColor)
 
       // $('.imageBox img').css('height',howBig[Math.floor(Math.random() * howBig.length)])
 
