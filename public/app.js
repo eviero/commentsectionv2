@@ -74,7 +74,7 @@ $(function(){
     
     setInterval(function(){
 //       aComment = '<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>'
-      $('.testing').append('<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>')
+      $('.testing').append('<p>"' + 'hello' + '"</p>')
     },5000)
 
       $('body').css({
