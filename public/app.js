@@ -96,7 +96,8 @@ $(function(){
           })
         }, 5000)
     
-$('.testing').scrollTop($('.testing')[0].scrollHeight);
+$(".testing").animate({ scrollTop: $(this).height() }, "slow");
+  return false;
     
       setTimeout(function(){
     location = ''
