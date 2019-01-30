@@ -34,6 +34,8 @@ $(function(){
   if(fontSize<60){
     fontSize=60
   }
+  
+  $('body').scrollTop($('body')[0].scrollHeight);
 
   //use jquery to make a get request to the server on the forecast endpoint
   $.get('/youtube', function(data){
