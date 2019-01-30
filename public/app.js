@@ -75,10 +75,15 @@ $(function(){
     },5000)
 
       $('body').css({
-        'color':theColor,
+//         'color':theColor,
         'font-family':'Courier',
         'font-size': '25',
         'background-color':'black'
+
+      })
+    
+          $('.testing').css({
+        'color':theColor,
 
       })
     
