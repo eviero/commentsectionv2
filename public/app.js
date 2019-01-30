@@ -92,6 +92,5 @@ $(function(){
       // $('.imageBox img').css('height',howBig[Math.floor(Math.random() * howBig.length)])
 
 
-  })
 
     })
