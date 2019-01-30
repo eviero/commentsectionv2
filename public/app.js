@@ -35,8 +35,6 @@ $(function(){
     fontSize=60
   }
   
-  $('.testing').append('<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>')
-  
   $('.testing').scrollTop($('.testing')[0].scrollHeight);
 
   //use jquery to make a get request to the server on the forecast endpoint
