@@ -84,6 +84,9 @@ $(function(){
       })
 
     setInterval(function(){ 
+      setInterval(function(){ 
+  randomNum = Math.floor(Math.random() * data.items.length)
+}, 5000)
           var newLine = $('<p>' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay+ '</p>');
           $('.testing').append(newLine)
          randomColor = fontColors[Math.floor(Math.random() * fontColors.length)]
