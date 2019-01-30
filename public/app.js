@@ -13,16 +13,8 @@ var commentInfoFromTop
 var commentInfoFromRight
 var positionFromComment
 var randomColor
-var someElement = document.querySelector('.testing');
-// Create an observer and pass it a callback.
-var observer = new MutationObserver(scrollToBottom);
-// Tell it to look for new children that will change the height.
-var config = {childList: true};
-var scrollToBottom
 
 $(function(){
-  
-  observer.observe(someElement, config);
 
   // randomNum = Math.floor(Math.random() * 99)
   fontColors = ['red','orange','yellow','green','blue','indigo','violet','pink']
@@ -110,9 +102,6 @@ $('.testing').scrollTop($('.testing')[0].scrollHeight);
     location = ''
   },120000)
     
-    function scrollToBottom() {
-  someElement.scrollTop = someElement.scrollHeight;
-}
     
 
 
