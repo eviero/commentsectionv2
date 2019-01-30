@@ -74,7 +74,7 @@ $(function(){
     
     setInterval(function(){
 //       aComment = '<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>'
-      $('div').append('<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>')
+      $('.testing').append('<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>')
     },5000)
 
       $('body').css({
@@ -84,14 +84,14 @@ $(function(){
 
       })
     
-          $('div').css({
+          $('.testing').css({
         'color':theColor
 
       })
     
     setInterval(function(){ 
      theColor = fontColors[Math.floor(Math.random() * fontColors.length)]
-                $('div').css({
+                $('.testing').css({
         'color':theColor
 
       })
