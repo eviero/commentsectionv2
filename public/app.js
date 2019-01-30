@@ -84,7 +84,7 @@ $(function(){
 
       })
     
-          $('.testing').css({
+          $(aComment).css({
         'color':theColor
 
       })
