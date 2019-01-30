@@ -80,6 +80,7 @@ $(function(){
         'font-family':'Courier',
         'font-size': '25',
         'background-color':'black'
+        'overflow-y': 'hidden'
 
       })
 
