@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 var request = require('request'); //use the request package to make api requests
-var videoID = ['1nDj1wpykWI', 'kffacxfA7G4', 'hSlb1ezRqfA', 'IvxRsDpXPGo', 'arXl3J3IVMM', 'gmmfmCdqzbQ', 'y6120QOlsfU', 'tpqttuNfWYo', 'ZXLCqA2ARSw', 'xTDM8oO8zYw', 'CJZfwJIpxgo', 'Cmo6g03Kd8c', 'kbBgx0BEuuI', '7_pAxFOqJv8', 'guQQSJNRooQ', 'k6zmICIqWRw', 'JhOUnWv2X8A', 'uqcyDA2L5L0', 'EGNKgah948s', 'aDMd6BeReAI', 'OGbhJjXl9Rk', 'A_MjCqQoLLA', 'VmUaBoEEz_g', 'XBqY6cJD3CE', 'hTWKbfoikeg', 'RTuBf4BrIgE', 'pjS6OdY2dBQ', '08ITsgiL6v8', 'GPdqlROzgvg', '1RtNuYX1Go4', '_qiVBOqNiOs']
+var videoID = ['dQw4w9WgXcQ', 'FZUcpVmEHuk']
 
 app.use(express.static('public')) //server out the public files statically!
 
