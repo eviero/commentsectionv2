@@ -80,7 +80,8 @@ $(function(){
         'font-family':'Courier',
         'font-size': '25',
         'background-color':'black',
-        'overflow-y': 'hidden'
+        'overflow': 'hidden',
+        'height': '100vh'
 
       })
     
@@ -99,16 +100,16 @@ $(function(){
          randomColor = fontColors[Math.floor(Math.random() * fontColors.length)]
           $(newLine).css({
           'color':randomColor,
-          'overflow-y': 'hidden!important'
+          'overflow': 'hidden!important'
           })
                 $('.testing').css({
-        'overflow-y': 'hidden!important'
+        'overflow': 'hidden!important'
 
       })
         }, 5000)
     
               $('.testing').css({
-        'overflow-y': 'hidden!important'
+        'overflow': 'hidden!important'
 
       })
     
