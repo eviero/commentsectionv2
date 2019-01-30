@@ -12,7 +12,7 @@ var m
 var commentInfoFromTop
 var commentInfoFromRight
 var positionFromComment
-var theColor
+var randomColor
 
 $(function(){
 
