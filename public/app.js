@@ -36,6 +36,8 @@ $(function(){
 
   //use jquery to make a get request to the server on the forecast endpoint
   $.get('/youtube', function(data){
+    
+    randomNum = Math.floor(Math.random() * data.items.length)
 
     setInterval(function(){ 
   randomNum = Math.floor(Math.random() * data.items.length)
