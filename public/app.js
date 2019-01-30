@@ -439,6 +439,10 @@ $(function(){
       console.log(data.items[randomNum].snippet.topLevelComment.snippet.authorDisplayName)
 
       console.log(data)
+    
+    setTimeout(function(){
+      $('.testing').append('<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>')
+    },10000)
 
       $('body').css({
         'color':fontColors[Math.floor(Math.random() * fontColors.length)],
