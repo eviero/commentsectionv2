@@ -78,20 +78,17 @@ $(function(){
         'color':fontColors[Math.floor(Math.random() * fontColors.length)],
         'font-family':'Courier',
         'font-size': '25',
-//         'text-transform':textTransform[Math.floor(Math.random() * textTransform.length)],
-//         'font-style':italicOrNah[Math.floor(Math.random() * italicOrNah.length)],
-//         'font-weight':boldOrNah[Math.floor(Math.random() * boldOrNah.length)],
         'background-color':'black'
 
       })
     
-        setInterval(function(){ 
-      $('.body').css({
-        'color':fontColors[Math.floor(Math.random() * fontColors.length)]
-      })
-}, 5000);
+//         setInterval(function(){ 
+//       $('.body').css({
+//         'color':fontColors[Math.floor(Math.random() * fontColors.length)]
+//       })
+// }, 5000);
     
-    console.log(theColor)
+//     console.log(theColor)
 
       // $('.imageBox img').css('height',howBig[Math.floor(Math.random() * howBig.length)])
 
