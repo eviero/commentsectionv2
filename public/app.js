@@ -70,8 +70,10 @@ $(function(){
 
       console.log(data)
     
+    var aComment = '<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>'
+    
     setInterval(function(){
-      $('.testing').append('<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>')
+      $('.testing').append(aComment)
     },5000)
 
       $('body').css({
