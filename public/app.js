@@ -101,7 +101,7 @@ messageBody.scrollTop = messageBody.scrollHeight - messageBody.clientHeight;
     
       setTimeout(function(){
     location = ''
-  },60000)
+  },120000)
     
 
 
