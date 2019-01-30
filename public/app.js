@@ -71,11 +71,6 @@ $(function(){
       console.log(data)
     
 //     var aComment = '<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>'
-    
-    setInterval(function(){
-//       aComment = '<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>'
-      $('.testing').append('<p>"' + 'hello' + '"</p>')
-    },5000)
 
       $('body').css({
         'font-family':'Courier',
@@ -90,6 +85,7 @@ $(function(){
       })
     
     setInterval(function(){ 
+      $('.testing').append('<p>"' + 'data.items[randomNum].snippet.topLevelComment.snippet.textDisplay' + '"</p>')
      randomColor = fontColors[Math.floor(Math.random() * fontColors.length)]
                 $('.testing').css({
         'color':randomColor
