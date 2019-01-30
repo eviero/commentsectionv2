@@ -96,9 +96,13 @@ $(function(){
           })
         }, 5000)
     
-      setTimeout(function(){
-    location = ''
-  },120000)
+//       setTimeout(function(){
+//     location = ''
+//   },120000)
+    
+if($('.testing').height > $('body').height){
+  location = ''
+}
     
     
 
