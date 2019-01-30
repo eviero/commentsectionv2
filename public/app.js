@@ -41,7 +41,7 @@ $(function(){
 
     setInterval(function(){ 
   randomNum = Math.floor(Math.random() * data.items.length)
-}, 1000);
+}, 5000);
 
   // $('.imageBox').append('<img src=' + data.items[randomNum].snippet.topLevelComment.snippet.authorProfileImageUrl + '>')
 
@@ -69,16 +69,16 @@ $(function(){
     
     setInterval(function(){
       $('.testing').append('<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>')
-    },1000)
+    },5000)
 
-      $('body').css({
+      $('.testing').css({
         'color':fontColors[Math.floor(Math.random() * fontColors.length)],
         'font-family':'Courier',
         'font-size': '25',
 //         'text-transform':textTransform[Math.floor(Math.random() * textTransform.length)],
 //         'font-style':italicOrNah[Math.floor(Math.random() * italicOrNah.length)],
 //         'font-weight':boldOrNah[Math.floor(Math.random() * boldOrNah.length)],
-        'background-color':theChoice
+        'background-color':'black'
 
       })
 
