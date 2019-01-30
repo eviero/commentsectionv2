@@ -2,7 +2,6 @@ const express = require('express')
 const app = express()
 var request = require('request'); //use the request package to make api requests
 var videoID = ['dQw4w9WgXcQ', 'FZUcpVmEHuk']
-var randomVideo = videoID[Math.floor(Math.random() * videoID.length)]
 
 app.use(express.static('public')) //server out the public files statically!
 
@@ -24,14 +23,4 @@ app.get('/youtube', function(req,res){
 var port = process.env.PORT || 3000
 app.listen(port, function(){
   console.log("running on 3k")
-})
-
-$(function(){
-
-randomVideo = videoID[Math.floor(Math.random() * videoID.length)]
-
-      setInterval(function(){ 
-  randomVideo = Math.floor(Math.random() * data.items.length)
-}, 5000)
-
 })
