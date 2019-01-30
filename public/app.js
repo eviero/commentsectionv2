@@ -42,7 +42,7 @@ $(function(){
 
     setInterval(function(){ 
   randomNum = Math.floor(Math.random() * data.items.length)
-}, 5000);
+}, 5000)
 
   // $('.imageBox').append('<img src=' + data.items[randomNum].snippet.topLevelComment.snippet.authorProfileImageUrl + '>')
 
@@ -75,7 +75,6 @@ $(function(){
     },5000)
 
       $('body').css({
-//         'color':theColor,
         'font-family':'Courier',
         'font-size': '25',
         'background-color':'black'
@@ -83,9 +82,13 @@ $(function(){
       })
     
           $('.testing').css({
-        'color':theColor,
+        'color':theColor
 
       })
+    
+    setInterval(function(){ 
+     theColor = fontColors[Math.floor(Math.random() * fontColors.length)]
+}, 5000)
     
     
     console.log(theColor)
