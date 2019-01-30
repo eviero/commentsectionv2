@@ -75,7 +75,7 @@ $(function(){
     },5000)
 
       $('.body').css({
-        'color':theColor,
+        'color':fontColors[Math.floor(Math.random() * fontColors.length)],
         'font-family':'Courier',
         'font-size': '25',
 //         'text-transform':textTransform[Math.floor(Math.random() * textTransform.length)],
@@ -86,7 +86,9 @@ $(function(){
       })
     
         setInterval(function(){ 
-  theColor = fontColors[Math.floor(Math.random() * fontColors.length)]
+      $('.body').css({
+        'color':fontColors[Math.floor(Math.random() * fontColors.length)]
+      })
 }, 5000);
     
     console.log(theColor)
