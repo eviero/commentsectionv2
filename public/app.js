@@ -108,17 +108,17 @@
 
     randomColor = fontColors[Math.floor(Math.random() * fontColors.length)]
 
-    $('.newText').css({
+    $('.testing').css({
             'color':randomColor
 
           })
 
-    $('.newText').append('<p>original line of text</p>')
+    $('.testing').append('<p>original line of text</p>')
 
     setInterval(function(){ 
-          $('.newText').append('<p>this text is added every 5 seconds</p>')
+          $('.testing').append('<p>this text is added every 5 seconds</p>')
          randomColor = fontColors[Math.floor(Math.random() * fontColors.length)]
-          $('.newText').css({
+          $('.testing').css({
           'color':randomColor
           })
         }, 5000)
