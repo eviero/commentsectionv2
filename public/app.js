@@ -87,15 +87,11 @@ $(function(){
 
       })
     
-        setInterval(function(){ 
-    theColor = fontColors[Math.floor(Math.random() * fontColors.length)]
-      })
-}, 5000)
     
     console.log(theColor)
 
       // $('.imageBox img').css('height',howBig[Math.floor(Math.random() * howBig.length)])
 
 
-
+  })
 })
