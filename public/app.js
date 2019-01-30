@@ -47,6 +47,8 @@ $(function(){
 }, 5000)
 
   // $('.imageBox').append('<img src=' + data.items[randomNum].snippet.topLevelComment.snippet.authorProfileImageUrl + '>')
+    
+        $('.testing').css({'color':randomColor})
 
       $('.testing').append('<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>')
 
@@ -80,20 +82,15 @@ $(function(){
         'background-color':'black'
 
       })
-    
-          $('.testing').css({
-        'color':randomColor
 
-      })
-    
     setInterval(function(){ 
-      $('.testing').append('<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>')
-     randomColor = fontColors[Math.floor(Math.random() * fontColors.length)]
-                $('.testing').css({
-        'color':randomColor
-
-      })
-    }, 5000)
+          var newLine = $('<p>this text is added every 5 seconds</p>');
+          $('.testing').append(newLine)
+         randomColor = fontColors[Math.floor(Math.random() * fontColors.length)]
+          $(newLine).css({
+          'color':randomColor
+          })
+        }, 5000)
     
 
 
