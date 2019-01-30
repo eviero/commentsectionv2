@@ -58,6 +58,8 @@ $(function(){
       }else{
           $('.commentInfo').css('color','black')
       }
+        
+    theColor = fontColors[Math.floor(Math.random() * fontColors.length)]
 
 //       $('.commentInfo').append('<p>' + "<font style='font-size:75pt !important; font-family: Snell Roundhand;'> - " + data.items[randomNum].snippet.topLevelComment.snippet.authorDisplayName + '. </font> <br> YouTube comment, #' + randomNum + '. <br> Retrieved from ' + data.items[randomNum].snippet.videoId + '.</p>')
 
@@ -71,8 +73,6 @@ $(function(){
     setInterval(function(){
       $('.testing').append('<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>')
     },5000)
-    
-    theColor = fontColors[Math.floor(Math.random() * fontColors.length)]
 
       $('.body').css({
         'color':theColor,
