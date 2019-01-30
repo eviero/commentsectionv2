@@ -84,14 +84,14 @@ $(function(){
 
       })
     
-          $(aComment).css({
+          $('div').css({
         'color':theColor
 
       })
     
     setInterval(function(){ 
      theColor = fontColors[Math.floor(Math.random() * fontColors.length)]
-                $(aComment).css({
+                $('div').css({
         'color':theColor
 
       })
