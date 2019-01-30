@@ -16,7 +16,6 @@ var randomColor
 var out = document.getElementById("out");
 // allow 1px inaccuracy by adding 1
 var isScrolledToBottom = out.scrollHeight - out.clientHeight <= out.scrollTop + 1;
-const out = document.getElementById("out")
 let c = 0
 
 setInterval(function() {
