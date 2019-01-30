@@ -101,7 +101,16 @@ $(function(){
           'color':randomColor,
           'overflow-y': 'hidden!important'
           })
+                $('.testing').css({
+        'overflow-y': 'hidden!important'
+
+      })
         }, 5000)
+    
+              $('.testing').css({
+        'overflow-y': 'hidden!important'
+
+      })
     
       setTimeout(function(){
     location = ''
