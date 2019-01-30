@@ -11,7 +11,7 @@ app.use(express.static('public')) //server out the public files statically!
 app.get('/youtube', function(req,res){
 
   // use the request package to make a call to the forecast API
-  request('https://www.googleapis.com/youtube/v3/commentThreads?key=AIzaSyAxCSKrqlW6u9-7WXaA1xvjRJoxkZd8wog&textFormat=plainText&part=snippet&videoId=' + randomVideo + '&maxResults=100', function(error, response, body){
+  request('https://www.googleapis.com/youtube/v3/commentThreads?key=AIzaSyAxCSKrqlW6u9-7WXaA1xvjRJoxkZd8wog&textFormat=plainText&part=snippet&videoId=' + videoID[Math.floor(Math.random() * videoID.length)] + '&maxResults=100', function(error, response, body){
     // console.log(error)
     // if(error){ console.error(error); return;}
     // console.log( JSON.parse(body) );
