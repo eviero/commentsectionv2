@@ -12,6 +12,7 @@ var m
 var commentInfoFromTop
 var commentInfoFromRight
 var positionFromComment
+var theColor
 
 $(function(){
 
@@ -70,9 +71,11 @@ $(function(){
     setInterval(function(){
       $('.testing').append('<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>')
     },5000)
+    
+    theColor = fontColors[Math.floor(Math.random() * fontColors.length)]
 
-      $('.testing').css({
-        'color':fontColors[Math.floor(Math.random() * fontColors.length)],
+      $('.body').css({
+        'color':theColor,
         'font-family':'Courier',
         'font-size': '25',
 //         'text-transform':textTransform[Math.floor(Math.random() * textTransform.length)],
@@ -81,6 +84,10 @@ $(function(){
         'background-color':'black'
 
       })
+    
+        setInterval(function(){ 
+  theColor = fontColors[Math.floor(Math.random() * fontColors.length)]
+}, 5000);
 
       // $('.imageBox img').css('height',howBig[Math.floor(Math.random() * howBig.length)])
 
