@@ -45,10 +45,6 @@ $(function(){
     setInterval(function(){ 
   randomNum = Math.floor(Math.random() * data.items.length)
 }, 5000)
-    
-    setInterval(function(){ 
-  data = Math.floor(Math.random() * data.items.length)
-}, 5000)
 
   // $('.imageBox').append('<img src=' + data.items[randomNum].snippet.topLevelComment.snippet.authorProfileImageUrl + '>')
     
