@@ -83,6 +83,11 @@ $(function(){
         'overflow-y': 'hidden'
 
       })
+    
+          $('.testing').css({
+        'overflow-y': 'hidden!important'
+
+      })
 
     setInterval(function(){ 
       setInterval(function(){ 
@@ -93,7 +98,8 @@ $(function(){
           $('.testing').append(newLine)
          randomColor = fontColors[Math.floor(Math.random() * fontColors.length)]
           $(newLine).css({
-          'color':randomColor
+          'color':randomColor,
+          'overflow-y': 'hidden!important'
           })
         }, 5000)
     
