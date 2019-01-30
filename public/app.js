@@ -96,7 +96,7 @@ $(function(){
           })
         }, 5000)
     
-$('body').scrollTop($('body')[0].scrollHeight);
+$('.testing').scrollTop($('.testing')[0].scrollHeight);
     
       setTimeout(function(){
     location = ''
