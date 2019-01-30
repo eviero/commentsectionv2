@@ -440,9 +440,9 @@ $(function(){
 
       console.log(data)
     
-    setTimeout(function(){
+    setInterval(function(){
       $('.testing').append('<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>')
-    },10000)
+    },1000)
 
       $('body').css({
         'color':fontColors[Math.floor(Math.random() * fontColors.length)],
