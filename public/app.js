@@ -96,8 +96,7 @@ $(function(){
           })
         }, 5000)
     
-var messageBody = document.querySelector('.testing');
-messageBody.scrollTop = messageBody.scrollHeight - messageBody.clientHeight;
+$('body').scrollTop($('body')[0].scrollHeight);
     
       setTimeout(function(){
     location = ''
