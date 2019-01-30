@@ -73,11 +73,11 @@ $(function(){
 
       $('body').css({
         'color':fontColors[Math.floor(Math.random() * fontColors.length)],
-        'font-family':fontFamilies[Math.floor(Math.random() * fontFamilies.length)],
-        'font-size': fontSize,
-        'text-transform':textTransform[Math.floor(Math.random() * textTransform.length)],
-        'font-style':italicOrNah[Math.floor(Math.random() * italicOrNah.length)],
-        'font-weight':boldOrNah[Math.floor(Math.random() * boldOrNah.length)],
+        'font-family':'Courier',
+        'font-size': '25',
+//         'text-transform':textTransform[Math.floor(Math.random() * textTransform.length)],
+//         'font-style':italicOrNah[Math.floor(Math.random() * italicOrNah.length)],
+//         'font-weight':boldOrNah[Math.floor(Math.random() * boldOrNah.length)],
         'background-color':theChoice
 
       })
