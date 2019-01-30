@@ -96,6 +96,10 @@ $(function(){
           })
         }, 5000)
     
+      setTimeout(function(){
+    location = ''
+  },60000)
+    
 
 
   })
