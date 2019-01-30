@@ -59,7 +59,7 @@ $(function(){
           $('.commentInfo').css('color','black')
       }
         
-    theColor = fontColors[Math.floor(Math.random() * fontColors.length)]
+    randomColor = fontColors[Math.floor(Math.random() * fontColors.length)]
 
 //       $('.commentInfo').append('<p>' + "<font style='font-size:75pt !important; font-family: Snell Roundhand;'> - " + data.items[randomNum].snippet.topLevelComment.snippet.authorDisplayName + '. </font> <br> YouTube comment, #' + randomNum + '. <br> Retrieved from ' + data.items[randomNum].snippet.videoId + '.</p>')
 
@@ -85,14 +85,14 @@ $(function(){
       })
     
           $('.testing').css({
-        'color':theColor
+        'color':randomColor
 
       })
     
     setInterval(function(){ 
-     theColor = fontColors[Math.floor(Math.random() * fontColors.length)]
+     randomColor = fontColors[Math.floor(Math.random() * fontColors.length)]
                 $('.testing').css({
-        'color':theColor
+        'color':randomColor
 
       })
     }, 5000)
