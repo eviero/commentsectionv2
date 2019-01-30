@@ -406,13 +406,13 @@ $(function(){
 
     // REFRESH
 
-setTimeout(function(){
-  location = ''
-},10000)
+// setTimeout(function(){
+//   location = ''
+// },10000)
 
-$('body').click(function() {
-  location = ''
-})
+// $('body').click(function() {
+//   location = ''
+// })
 
   randomNum = Math.floor(Math.random() * data.items.length)
 
@@ -431,7 +431,7 @@ $('body').click(function() {
           $('.commentInfo').css('color','black')
       }
 
-      $('.commentInfo').append('<p>' + "<font style='font-size:75pt !important; font-family: Snell Roundhand;'> - " + data.items[randomNum].snippet.topLevelComment.snippet.authorDisplayName + '. </font> <br> YouTube comment, #' + randomNum + '. <br> Retrieved from ' + data.items[randomNum].snippet.videoId + '.</p>')
+//       $('.commentInfo').append('<p>' + "<font style='font-size:75pt !important; font-family: Snell Roundhand;'> - " + data.items[randomNum].snippet.topLevelComment.snippet.authorDisplayName + '. </font> <br> YouTube comment, #' + randomNum + '. <br> Retrieved from ' + data.items[randomNum].snippet.videoId + '.</p>')
 
       //+ data.items[randomNum].snippet.topLevelComment.snippet.publishedAt
       // $('.commentInfo').css({'top': p.height})
