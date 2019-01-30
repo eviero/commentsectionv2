@@ -79,7 +79,7 @@ $(function(){
       $('body').css({
         'font-family':'Courier',
         'font-size': '25',
-        'background-color':'black'
+        'background-color':'black',
         'overflow-y': 'hidden'
 
       })
