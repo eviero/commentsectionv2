@@ -73,6 +73,7 @@ $(function(){
     var aComment = '<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>'
     
     setInterval(function(){
+      aComment = '<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>'
       $('.testing').append(aComment)
     },5000)
 
