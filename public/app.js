@@ -115,7 +115,7 @@ $(function(){
     
       setTimeout(function(){
     location = ''
-  },100000)
+  },85000)
     
     
     
