@@ -50,7 +50,7 @@ $(function(){
     
         $('.testing').css({'color':randomColor})
 
-      $('.testing').append('<p>"' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '"</p>')
+      $('.testing').append('<p>' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay + '</p>')
 
       console.log('comment number:' + randomNum)
       console.log('font size:' + fontSize)
