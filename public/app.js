@@ -93,7 +93,7 @@ $(function(){
     setInterval(function(){ 
       setInterval(function(){ 
   randomNum = Math.floor(Math.random() * data.items.length)
-}, 5000)
+}, 3000)
       console.log('video:' + randomNum)
           var newLine = $('<p>' + data.items[randomNum].snippet.topLevelComment.snippet.textDisplay+ '</p>');
           $('.testing').append(newLine)
@@ -115,7 +115,7 @@ $(function(){
     
       setTimeout(function(){
     location = ''
-  },85000)
+  },51000)
     
     
     
