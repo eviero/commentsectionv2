@@ -44,7 +44,7 @@ $(function(){
 
     setInterval(function(){ 
   randomNum = Math.floor(Math.random() * data.items.length)
-}, 5000)
+}, 3000)
 
   // $('.imageBox').append('<img src=' + data.items[randomNum].snippet.topLevelComment.snippet.authorProfileImageUrl + '>')
     
@@ -106,7 +106,7 @@ $(function(){
         'overflow': 'hidden!important'
 
       })
-        }, 5000)
+        }, 3000)
     
               $('.testing').css({
         'overflow': 'hidden!important'
